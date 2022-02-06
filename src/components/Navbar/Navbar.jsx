@@ -16,28 +16,28 @@ const Navbar = () => {
       </div>
 
       <ul className="app__navbar-links">
-        <li className="p__opensans"> <a href="#home">Home</a> </li> 
-        <li className="p__opensans"> <a href="#about">About</a> </li>    
+        <li className="p__opensans"> <a href="#home">Home</a> </li>
+        <li className="p__opensans"> <a href="#about">About</a> </li>
         <li className="p__opensans"> <a href="#menu">Menu</a> </li>
-        <li className="p__opensans"> <a href="#awards">Awards</a> </li> 
+        <li className="p__opensans"> <a href="#awards">Awards</a> </li>
         <li className="p__opensans"> <a href="#contact">Contact</a> </li>
       </ul>
 
-      <div className="app__navbar-login">
-        <a href='#login' className='p__opensans'>Login In / Register</a>
+      <div className="app__navbar-login"> 
+        <a href='#login' className='p__opensans'>Log In / Register</a>
         <div />
         <a href="/" className="p__opensans">Book Table</a>
       </div>
 
-    {/* small screen */}
-      <div className='app__navbar-smallscreen'>   
+      {/* small screen */}
+      <div className='app__navbar-smallscreen'>
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => { showToggleMenu(true) }} style={{ cursor: "pointer" }} />
 
-        {toggleMenu && (  
-          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">  
+        {toggleMenu && (
+          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay_close" onClick={() => { showToggleMenu(false) }} />
- 
-            <ul className="app__navbar-smallscreen_links">   
+
+            <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans"> <a href="#home">Home</a> </li>
               <li className="p__opensans"> <a href="#about">About</a> </li>
               <li className="p__opensans"> <a href="#menu">Menu</a> </li>

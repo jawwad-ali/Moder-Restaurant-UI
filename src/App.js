@@ -7,7 +7,7 @@ import {
   Footer,
   Gallery,
   Header,
-  Intro, 
+  Intro,
   Laurels,
   SpecialMenu,
 } from "./container";
@@ -18,12 +18,12 @@ const App = () => (
   <div>
     <Navbar />
     <Header />
-    {/* <AboutUs /> 
-    <SpecialMenu />  
-    <Chef />
-    <Intro />
+    <AboutUs />
+    <SpecialMenu />
+    {/*<Chef /> 
+    <Intro />   
     <Laurels />
-    <Gallery />
+    <Gallery /> 
     <FindUs /> 
     <Footer /> */}
   </div>
@@ -31,4 +31,4 @@ const App = () => (
 
 export default App;
 // 59.16
- 
+// 1.10.03

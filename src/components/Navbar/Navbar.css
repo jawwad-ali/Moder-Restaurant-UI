@@ -99,16 +99,30 @@
 @media screen and (max-width: 2150px) {
   .app__navbar-logo {
     width: 210px;
-  } 
+  }
 }
 
 /* 1150px */
 @media screen and (max-width: 1150px) {
   .app__navbar-links {
-    display: none; 
+    display: none;
   }
   .app__navbar-smallscreen {
     display: flex;
+  }
+  /* pradtice */
+  .app__navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    order: 2;
+  }
+  .app__navbar-smallscreen {
+    order: 1;
+  }
+  .app__navbar-login {
+    order: 3;
   }
 }
 
@@ -116,8 +130,20 @@
 @media screen and (max-width: 650px) {
   .app__navbar-login {
     display: none;
-  } 
+  }
   .app__navbar-logo {
     width: 110px;
-  } 
+  }
+  .app__navbar-logo {
+    /* border: 1px solid red; */
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    order: 2;
+  }
+  .app__navbar-smallscreen {
+    order: 1;
+  }
 }
