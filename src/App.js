@@ -20,15 +20,14 @@ const App = () => (
     <Header />
     <AboutUs />
     <SpecialMenu />
-    {/*<Chef /> 
-    <Intro />   
-    <Laurels />
-    <Gallery /> 
-    <FindUs /> 
+    <Chef />
+    <Intro />
+    {/* <Laurels /> */}
+    <Gallery />
+    {/*<FindUs /> 
     <Footer /> */}
   </div>
 );
 
 export default App;
-// 59.16
-// 1.10.03
+// 2.40.34

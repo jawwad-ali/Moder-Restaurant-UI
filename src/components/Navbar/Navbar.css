@@ -12,18 +12,20 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 150px !important;
 }
 
 .app__navbar img {
-  width: 150px;
+  width: 150px; 
 }
 
 .app__navbar-links {
-  flex: 1;
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   list-style: none;
+  width: 100% !important;
 }
 
 .app__navbar-links li {
@@ -135,8 +137,6 @@
     width: 110px;
   }
   .app__navbar-logo {
-    /* border: 1px solid red; */
-    /* flex: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
