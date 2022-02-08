@@ -1,13 +1,13 @@
 import React from "react";
 
-import {
+import { 
   AboutUs,
   Chef,
   FindUs,
-  Footer,
+  Footer, 
   Gallery,
-  Header,
-  Intro,
+  Header, 
+  Intro, 
   Laurels,
   SpecialMenu,
 } from "./container";
@@ -22,10 +22,9 @@ const App = () => (
     <SpecialMenu />
     <Chef />
     <Intro />
-    {/* <Laurels /> */}
-    <Gallery />
-    {/*<FindUs /> 
-    <Footer /> */}
+    <Gallery /> 
+    <FindUs />   
+    <Footer />
   </div>
 );
 

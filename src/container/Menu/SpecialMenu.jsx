@@ -4,7 +4,7 @@ import './SpecialMenu.css';
 import { SubHeading, MenuItem } from "../../components"
 import { images, data } from "../../constants"
 
-const SpecialMenu = () => (
+const SpecialMenu = () => ( 
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title"> 
       <SubHeading title="Menu that fits your palatte" />
@@ -15,7 +15,7 @@ const SpecialMenu = () => (
       <div className="app_specialMenu-menu_wine flex__center">
         <p className="app__specialMenu-menu_heading">Wine & Beer</p>
         <div className="app__specialMenu_menu_items">  
-          {data.wines.map((wine, idx) => ( 
+          {data.wines.map((wine, idx) => (  
             <MenuItem key={wine.title + idx} title={wine.title} price={wine.price} tags={wine.tags} />
           ))}
         </div> 
